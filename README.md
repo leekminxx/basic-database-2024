@@ -29,7 +29,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
 
 - SQL 기본 학습
     -SSMS 실행
-    ![SSMs로그인](https://raw.github.com/leekminxx/basic-database-2024/blob/main/images/db002.png)
+    ![SSMs로그인](https://github.com/leekminxx/basic-database-2024/blob/main/images/db002.png)
 
     -특이사항 - SSMs 쿼리창에서 소스코드 작성시 빨간색 오류 밑줄이 가끔 표현(전부 오류는 아님!)
 
@@ -84,6 +84,6 @@ iot 개발자과정 SQLServer 학습 리포지토리
             - INNER JOIN(내부 조인)
             - LEFT|RIGHT OUTER JOIN(외부 조인) - 어느 테이블이 기준인지에 따라서 결과가 상이함
 
-        ![외부조인](https://github.com/leekminxx/basic-database-2024/blob/main/images/db004.png?raw=true)
+        ![외부조인](https://github.com/leekminxx/basic-database-2024/blob/main/images/db004.png)
 
 
