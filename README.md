@@ -6,7 +6,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
     - DBMS 엔진 -개발자 버전
         - iso 다운로드 후 설치 추천
         - SQL Server에 대한 Azure 확장 비활성화 
-        ![기능선택](https://raw.github.com/leekminxx/basic-database-2024/blob/main/images/db001.png
+        ![기능선택](https://github.com/leekminxx/basic-database-2024/blob/main/images/db001.png)
         - 데이터베이스 엔진 구성부터 중요
             - Wintdows 인증모드로 하면 외부에서 접근불가
             - 혼합모드(sa) 에 대한 암호를 지정해줘야 함  /mssql_p@ss (8자 이상[대소문자구분]특수문자 1자 이상) 
@@ -84,6 +84,6 @@ iot 개발자과정 SQLServer 학습 리포지토리
             - INNER JOIN(내부 조인)
             - LEFT|RIGHT OUTER JOIN(외부 조인) - 어느 테이블이 기준인지에 따라서 결과가 상이함
 
-        ![외부조인](https://raw.github.com/leekminxx/basic-database-2024/blob/main/images/db004.png)
+        ![외부조인](https://github.com/leekminxx/basic-database-2024/blob/main/images/db004.png?raw=true)
 
 
