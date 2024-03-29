@@ -10,6 +10,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
             - Wintdows 인증모드로 하면 외부에서 접근불가
             - 혼합모드(sa) 에 대한 암호를 지정해줘야 함  /mssql_p@ss (8자 이상[대소문자구분]특수문자 1자 이상) 
             - 데이터루트 디렉토리는 변경 
+    - [개발툴 설치]
     - 개발툴 설치 
         - SSMS(Sql Server Mangement Studio) DB에 접근 , 여러개발 작업목표
 
@@ -20,12 +21,14 @@ iot 개발자과정 SQLServer 학습 리포지토리
 
 - DB 언어 
     - SQL(Structured Query Language) : 구조화된 질의 언어
-        - DDL(Data Definition Lang) - 데이터베이스 , 테이블 , 인덱스 생성
+        - DDL(Data Definition Lang) - 데이터베이스 , 테이블 , 인덱스 생성 , CREATE  , ALTER , DROP
         - DML (Data Manipulation Lang) - 검색(SELECT) , 삽입(INSERT) , 수성(UPDATA), 삭제(DELECT) 등 기능 (중요!)
-        - DCL (data control Lang) 
+        - DCL (data control Lang) -권한 , 트랜스액션 부여/ 제거 기능 , GRANT , REVOKE
+        - TCL (Transaction control Lang)  - 트랜스액션(트랜잭션) 제어하는 기능 COMMIT , ROLLBACK , 원래는 DCL의 일부 , 기능이 특이해서 TCL로 분리
 
 - SQL 기본 학습
     -SSMS 실행
+    ![SSMs로그인]
 
 - DML 학습
     - SQL 명령어 키워드 ,: SELECT , INSERT , UPDAET , DELETE
