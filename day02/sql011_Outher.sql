@@ -8,5 +8,5 @@ SELECT *
 --이 둘은 같은 의미의 쿼리
 SELECT *
   FROM TableB B
- RIGHT OUTER JOIN Table A A
+ RIGHT OUTER JOIN TableA A 
 	ON A.key = b.key;
