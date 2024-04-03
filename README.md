@@ -172,10 +172,63 @@ iot 개발자과정 SQLServer 학습 리포지토리
         - FROM - 다수행 , 다수열 
         - WHERE - 다수행 , 단일열(보통)
             - 비교연산 , 집합연산 , 한정연산 , 존재연산 가능
-    - 내장함수 
-    - 서브쿼리 리뷰
     - 뷰
     - 인덱스 
+
+## 5일차
+ - SQL 고급 
+    - 서브쿼리 리뷰
+    - 뷰 - 복잡한 쿼리로 생성되는 결과를 자주 사용하기 위해서 만드는 개체
+        - 편리하고 , 보안에 강하며 , 논리적 독립성을 띰
+        - 원본데이터가 변경되면 같이 변경되고 , 인덱스 생성은 어렵 , CUD 연산에 제약이 있음 
+
+        ```sql
+        CREATE VIEW 뷰이름 [(열이름 [, ...])]
+        AS <SELECT 쿼리문>;
+
+        -- 수정
+        ALTER VIEW 뷰이름[(열이름[, ...])]
+        -- 삭제
+        DROP VIEW 뷰이름;
+        ```
+
+    - 인덱스
+
+        ```sql
+        -- 생성
+        create[UNIQUE][CLUSTERED|NONCLUSTERED]INDEX 인덱스이름
+        ON 테이블명 (속성이름[ASC|DESC] [,...n]);
+
+        -- 수정
+        ALTER INDEX {인덱스 이름 | ALL}
+        ON 테이블명 {REBUILD | DISABLE | REORGANIZE};
+
+        -- 삭제 
+        DROP INDEX 인덱스이름 ON 테이블명 ;
+        ```
+        - SSMS 에서 실행계획을 가지고 쿼리 실행 성능을 체크할 수 있음 
+        n
+
+- 파이썬 Server 연동프로그래밍
+    - Madang   DB 관리 프로그램
+        - PyQT GUI 생성
+        - SQL Server 데이터 핸들링
+            - Pymysql 라이브러리 설치
+
+        ```shell
+        > pip install pymssql
+        ```
+
+        - DB연결 설정 - Oracle , MySQL 등은 설정이 없음 . 구성관리자에서 TCP?IP 로 접근을 허용하지 않으면 접속 안됨
+            1. 시작메뉴 > 모든 앱 > Microsofr SQL Server 20xx > SQL Server 20xx 구성관리자 실행
+            2. SQL Server 네트워크 구성 > MSSQL Server 에 대한 프로토콜 클릭
+            3. TCP/IP 프로토콜 상태 가 사용안함(최초) > TCP/IP 를 더블클릭 
+            4. 프로토콜 사용 > 예, 로 변경 
+            5. IP주소 탭 > IP주소가 본인 아이피인 것 > 사용 > 예 , 로 변경 
+            6. 127.0.0.1 로 된 주소 > 사용 > 예 , 로 변경
+            7. SQL Server 서비스 > SQL Server (MSSQLSERVER) 더블클릭 후 , **다시시작** 버튼 클릭 , 재시작 필요 
+            ![구성관리자](https://github.com/leekminxx/basic-database-2024/blob/main/images/db005.png)
+- 데이터베이스 모델fld
 
 
 
