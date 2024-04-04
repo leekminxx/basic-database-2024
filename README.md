@@ -259,7 +259,11 @@ iot 개발자과정 SQLServer 학습 리포지토리
 - 실행화면
 
 
-https://github.com/leekminxx/basic-database-2024/assets/158007500/2304d82b-d52b-4470-8083-334cc6c731fc
+https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-4ed7-89ec-59a9be0a5862
+
+
+
+
 
 
 
