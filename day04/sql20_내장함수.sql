@@ -50,10 +50,6 @@ SELECT SUBSTRING ('Microsoft SQL Server 2022',
                  LEN('sql'));
 
 
-
-
-
-
     -- 날짜 및 시간함수
 SELECT GETDATE();
 

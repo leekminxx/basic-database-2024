@@ -90,10 +90,6 @@ SELECT DISTINCT o.customer_name
            FROM customers c
 
 
-
-
-
-
 --(3) 전체 고객의 30% 이상이 구매한 도서
 SELECT *
   FROM Book AS b1

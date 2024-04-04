@@ -12,7 +12,7 @@ SELECT (10000 + 20000 + 0) / 3;
 
 --bookid 가 없는 데이터로 통계를 낼때는 NULL이 나와야 함 
 SELECT SUM(price) , AVG(price) , COUNT(*) , COUNT(price)
-  FROM MyBook;
+  FROM MyBook
  WHERE bookid >= 4;
 
 -- NULL 비교(!)

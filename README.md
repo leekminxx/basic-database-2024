@@ -1,7 +1,7 @@
 # basic-database-2024
 iot 개발자과정 SQLServer 학습 리포지토리
 
-## 1일차
+## 1일차(24.03.23)
 - MS SQL Server설치 |: https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads 최신버전
     - DBMS 엔진 -개발자 버전
         - iso 다운로드 후 설치 추천
@@ -19,6 +19,21 @@ iot 개발자과정 SQLServer 학습 리포지토리
     - 데이터를 보관 , 간뢰 , 서비스하는 시스템
     - Data , Information , Knowlege 개념
     - DBms > Database , Data(Model)
+
+- 외부 스키마
+    - 일반 사용자나 응용 프로그래머가 접근하는 계층 , 전체 데이터베이스 중에서 하나의 논리적인 부분을 의미
+    - 여러 개의 외부 스키마 가 있을 수 있음
+    - 서브 스키마 라고도 하며 , 뷰(VIEW)의 개념
+
+- 개념 스키마
+    - 전체 테이터베이스의 정의를 의미
+    - 통합 조직별로 하나만 존재하며 DBA가 관리함
+    - 하나의 데이터베이스에는 하나의 개념 스키마가 있음
+
+- 내부 스키마 
+    - 물리적 저장 장치에 데이터 베이스가 실제로 저장되는 방법의 표현
+    - 내부 스키마는 하나
+    - 인덱스 , 데이터 레코드의 배치 방법 , 데이터 압축 등에 관한 사항이 포함됨
 
 - DB 언어 
     - SQL(Structured Query Language) : 구조화된 질의 언어
@@ -231,4 +246,13 @@ iot 개발자과정 SQLServer 학습 리포지토리
 - 데이터베이스 모델fld
 
 
-
+## 6일차 
+- 파이썬 Server 연동프로그래밍
+    - Madang   DB 관리 프로그램
+        - PyQt5 + pymssql
+    
+    - 문제점 - 한글 깨짐문제
+        1. DB 테이블의 varchar(ASCII) -> nvarchar(UTF-8) 변경
+        2. Python에서 pymss로 접속할 때 , charset을 'UTF8'로 설정
+        3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
+- 데이터베이스 모델링 
