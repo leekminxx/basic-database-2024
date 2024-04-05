@@ -246,7 +246,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
 - 데이터베이스 모델fld
 
 
-## 6일차 
+## 6일차 (24.04.06)
 - 파이썬 Server 연동프로그래밍
     - Madang   DB 관리 프로그램
         - PyQt5 + pymssql
@@ -255,6 +255,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
         1. DB 테이블의 varchar(ASCII) -> nvarchar(UTF-8) 변경
         2. Python에서 pymss로 접속할 때 , charset을 'UTF8'로 설정
         3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
+<<<<<<< Updated upstream
 - 데이터베이스 모델링
 - 실행화면
 
@@ -269,3 +270,36 @@ https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-
 
 
 
+=======
+
+    - 실행화면
+
+ ## 7일차   
+- SQL 고급
+    - 트랜잭션 - ALL or Nothing
+    - 트랜잭션 속성 - A(tomicity) , C(onsistency) , I(olation) , D(urability)
+    - TCL에서 사용할 키워드
+        - BEGIN , TRAN[SACTION] , COMMIT , ROLLBACK , SAVE
+
+    - SQL Server는 기본적으로 Auto Comit(시스템이 자동으로 트랜잭션을 건다)
+    - SSMS > 도구 > 옵션 > 쿼리 실행 > SQL Server > ANSI
+        -> SET IMPLICIT_TRANSACTIONS 체크 , 프로그램 재시작 
+    - 트랜잭션 - 로직 처리시 다른 트랜잭션의 간섭을 받이 않기 위한 것(Lock) , 중요한 데이터 수정, 삭제시 잘못된 변경을 방지하기 위한 것 
+- 데이터베이스 모델링 
+    - 설계(모델링) 순서 -> 개념 설계 -> 논리 설계 -> 물리 설계
+    - 개념 모델링 - 요구사항을 받으면서 정해지지 않은 여러 개체들을 정립화 하는 단계
+    - 논리 모델링 - 기본키 지정 , 외래키 지정 , 관계 성립 , 속성들 이름(한글) 개체를 정하는 단계
+    - 물리 모델링 - DB에 맞춰서 컬럼이름 , 컬럼데이터 타입 및 크기 지정 , DB에 대한 검토로 테이블을 만들기 직전의 설계를 완성 
+
+    - ER 모델링 - ERD를 그리기위한 기본 이론 
+
+- 인덱스 예제
+    - PK나 인덱스가 없는 상태에서 성능문제 체크
+    - 인덱스가 설정되면 성능이 어떤지 비교
+    - 더미 생성시 100만건으로 제약을 두고 시작 
+
+## 8일차
+-  인덱스 예제
+-  정규화 
+-  실무실습(사용자 , 권한)
+>>>>>>> Stashed changes
