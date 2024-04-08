@@ -6,7 +6,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
     - DBMS 엔진 -개발자 버전
         - iso 다운로드 후 설치 추천
         - SQL Server에 대한 Azure 확장 비활성화 
-        ![기능선택](https://github.com/leekminxx/basic-database-2024/blob/main/images/db001.png)
+        ![기능선택](https://raw.githubusercontent.com/leekminxx/basic-database-2024/main/images/db001.png)
         - 데이터베이스 엔진 구성부터 중요
             - Wintdows 인증모드로 하면 외부에서 접근불가
             - 혼합모드(sa) 에 대한 암호를 지정해줘야 함  /mssql_p@ss (8자 이상[대소문자구분]특수문자 1자 이상) 
@@ -44,7 +44,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
 
 - SQL 기본 학습
     -SSMS 실행
-    ![SSMs로그인](https://github.com/leekminxx/basic-database-2024/blob/main/images/db002.png)
+    ![SSMs로그인](https://raw.githubusercontent.com/leekminxx/basic-database-2024/main/images/db002.png)
 
     -특이사항 - SSMs 쿼리창에서 소스코드 작성시 빨간색 오류 밑줄이 가끔 표현(전부 오류는 아님!)
 
@@ -99,7 +99,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
             - INNER JOIN(내부 조인)
             - LEFT|RIGHT OUTER JOIN(외부 조인) - 어느 테이블이 기준인지에 따라서 결과가 상이함
 
-        ![외부조인](https://github.com/leekminxx/basic-database-2024/blob/main/images/db004.png)
+        ![외부조인](https://raw.githubusercontent.com/leekminxx/basic-database-2024/main/images/db004.png)
 
 
         - 부속질의(SubQuery)
@@ -242,7 +242,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
             5. IP주소 탭 > IP주소가 본인 아이피인 것 > 사용 > 예 , 로 변경 
             6. 127.0.0.1 로 된 주소 > 사용 > 예 , 로 변경
             7. SQL Server 서비스 > SQL Server (MSSQLSERVER) 더블클릭 후 , **다시시작** 버튼 클릭 , 재시작 필요 
-            ![구성관리자](https://github.com/leekminxx/basic-database-2024/blob/main/images/db005.png)
+            ![구성관리자](https://raw.githubusercontent.com/leekminxx/basic-database-2024/main/images/db005.png)
 - 데이터베이스 모델fld
 
 
@@ -286,7 +286,7 @@ iot 개발자과정 SQLServer 학습 리포지토리
 
         <!-- ![인덱스](https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png) -->
         <!-- html img 태그가 이미지 사이즈 조정 가능  -->
-        <img src="https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png"width ="870">
+        <img src="https://raw.githubusercontent.com/leekminxx/basic-database-2024/main/images/db006.png" width="870">
 
 ## 8일차
 -  인덱스 예제
