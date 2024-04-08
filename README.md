@@ -255,24 +255,10 @@ iot 개발자과정 SQLServer 학습 리포지토리
         1. DB 테이블의 varchar(ASCII) -> nvarchar(UTF-8) 변경
         2. Python에서 pymss로 접속할 때 , charset을 'UTF8'로 설정
         3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
-<<<<<<< Updated upstream
-- 데이터베이스 모델링
-- 실행화면
-
-
-https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-4ed7-89ec-59a9be0a5862
-
-
-
-
-
-
-
-
-
-=======
 
     - 실행화면
+
+        https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-4ed7-89ec-59a9be0a5862
 
  ## 7일차   
 - SQL 고급
@@ -298,9 +284,9 @@ https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-
     - 인덱스가 설정되면 성능이 어떤지 비교
     - 더미 생성시 100만건으로 제약을 두고 시작 
 
-    <!-- ![인덱스](https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png) -->
-    html img 태그가 이미지 사이즈 조정 가능 
-    <img src="https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png"width ="870">
+        <!-- ![인덱스](https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png) -->
+        <!-- html img 태그가 이미지 사이즈 조정 가능  -->
+        <img src="https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png"width ="870">
 
 ## 8일차
 -  인덱스 예제
@@ -327,5 +313,3 @@ https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-
                 - 일반 : 기본 데이터베이스 hr 선택 
                 - 사용자매핑 : hr 선택 , 데이터베이스 역할 멤버 : db_owner 추가 선택
     2. HR사용자 로그인(VS Code)
-
->>>>>>> Stashed changes
