@@ -300,7 +300,7 @@ https://github.com/leekminxx/basic-database-2024/assets/158007500/404f6d5f-d2f7-
 
     <!-- ![인덱스](https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png) -->
     html img 태그가 이미지 사이즈 조정 가능 
-    <img src="https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png "width ="870">
+    <img src="https://github.com/leekminxx/basic-database-2024/blob/main/images/db006.png"width ="870">
 
 ## 8일차
 -  인덱스 예제
